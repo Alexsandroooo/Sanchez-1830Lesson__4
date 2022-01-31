@@ -1,0 +1,129 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@font-face {
+	font-family: "Lato";
+	src: url("Lato-BlackItalic.woff2") format("woff2"), url("Lato-BlackItalic.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("Lato-Black.woff2") format("woff2"), url("Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("Lato-Bold.woff2") format("woff2"), url("Lato-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("Lato-Regular.woff2") format("woff2"), url("Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato Hairline";
+	src: url("Lato-Hairline.woff2") format("woff2"), url("Lato-Hairline.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato Hairline";
+	src: url("Lato-HairlineItalic.woff2") format("woff2"), url("Lato-HairlineItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("Lato-Light.woff2") format("woff2"), url("Lato-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-size: 16px;
+	text-align: left;
+}
+
+h1 {
+	font-family: "lato", sans-serif;
+	color: mediumseagreen;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+}
+
+.intro {
+	font-family: "lato", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.5;
+	text-shadow: 10px 5px 30px fuchsia;
+	text-align: right;
+	color: orchid;
+}
+
+.text p {
+	font-size: 18px;
+	color: rgba(24, 70, 237, 0.84);
+	text-indent: 30px;
+}
+
+.text__in p {
+	font-family: "lato", sans-serif;
+	font-weight: 900;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.5;
+	text-shadow: 5px 5px 10px #000;
+	font-size: 28px;
+	text-transform: capitalize;
+}
+
+.text__m p {
+	font-size: 20px;
+	text-decoration: underline;
+	color: indigo;
+	text-transform: lowercase;
+}
+
+.menu ul {
+	text-align: center;
+	color: orange;
+	font-size: 18px;
+	letter-spacing: 3px;
+}
+
+.menu span {
+	text-decoration: line-through;
+	color: red;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
+.lees p {
+	font-size: 20px;
+	color: seagreen;
+	text-transform: capitalize;
+	text-shadow: 4px 5px 9px #0f8731;
+	text-indent: 20px;
+	text-align: right;
+}
